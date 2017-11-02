@@ -23,3 +23,15 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+$databases['default']['default'] = array (
+  'database' => 'commerce_d8',
+  'username' => 'root',
+  'password' => 'password',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'HA_TfzA-vj_Ua7BL1306XWFpjAK6rnR-O_FLL0h3-UGfxegCpn2FSCUFMyTkiq48BTc7_2yhLg';
+$settings['install_profile'] = 'standard';
