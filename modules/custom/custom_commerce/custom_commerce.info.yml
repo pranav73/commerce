@@ -2,4 +2,16 @@ name: 'custom commerce'
 description: 'Feature to get commerce site configuration'
 type: module
 core: 8.x
+dependencies:
+  - commerce
+  - commerce_payment
+  - commerce_paypal
+  - commerce_product
+  - field
+  - image
+  - inline_entity_form
+  - path
+  - taxonomy
+  - text
+  - views
 version: 8.x-1.0
