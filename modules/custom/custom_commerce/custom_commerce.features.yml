@@ -1,1 +1,6 @@
+excluded:
+  - commerce_price.commerce_currency.AUD
+  - commerce_price.commerce_currency.BHD
+  - commerce_price.commerce_currency.EUR
+  - commerce_price.commerce_currency.INR
 required: true
