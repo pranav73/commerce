@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: shoes
+label: Shoes
+orderItemType: default
+generateTitle: false
+traits: {  }
