@@ -6,9 +6,12 @@ dependencies:
   - commerce
   - commerce_payment
   - commerce_paypal
+  - commerce_price
   - commerce_product
   - field
+  - file
   - image
+  - imagezoom
   - inline_entity_form
   - path
   - taxonomy
