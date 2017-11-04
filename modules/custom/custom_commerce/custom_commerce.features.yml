@@ -1,10 +1,1 @@
-excluded:
-  - core.entity_form_display.commerce_product.default.default
-  - core.entity_view_display.commerce_product.default.default
-  - core.entity_view_display.commerce_product_variation.default.default
-  - field.field.commerce_product.default.field_image
-  - field.field.commerce_product_variation.default.attribute_color
-  - field.field.commerce_product_variation.default.attribute_display
-  - field.field.commerce_product_variation.default.attribute_memory
-  - field.field.commerce_product_variation.default.field_image
 required: true
